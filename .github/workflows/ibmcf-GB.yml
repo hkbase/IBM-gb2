@@ -20,9 +20,9 @@ jobs:
       IBM_CF_PASSWORD: ${{ secrets.IBM_CF_PASSWORD }}
       IBM_CF_ORG_NAME: ${{ secrets.IBM_CF_ORG_NAME }}
       IBM_CF_SPACE_NAME: ${{ secrets.IBM_CF_SPACE_NAME }}
-      IBM_CF_APP_NAME: ${{ secrets.IBM_CF_APP_NAME }}
-      V2_UUID: ${{ secrets.V2_UUID }}
-      V2_WS_PATH_VMESS: ${{ secrets.V2_WS_PATH_VMESS }}
+      IBM_CF_APP_NAME2: ${{ secrets.IBM_CF_APP_NAME }}
+      V2_UUID2: ${{ secrets.V2_UUID }}
+      V2_WS_PATH_VMESS2: ${{ secrets.V2_WS_PATH_VMESS }}
       V2_WS_PATH_VLESS: ${{ secrets.V2_WS_PATH_VLESS }}
 
     steps:
